@@ -174,8 +174,25 @@ footer textarea{
     .skills-container, 
     .resume-container, 
     footer,
+    .banner,
+    nav,nav>ul,
     .about-items{
         flex-direction: column;
+    }
+    nav>ul{
+        gap: 20px;
+    }
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+    .banner{
+        margin: 20px;
+    }
+    .banner-pic{
+        width: 100%;
+    }
+    .header{
+        background-image: none;
     }
     footer, .about{
         padding: 20px;
@@ -190,5 +207,11 @@ footer textarea{
     }
     
 
+}
+
+@media screen and (min-width:576px) and (max-width:990px) {
+    .banner{
+        flex-direction: column;
+    }
 }
 
